@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(227, 234, 236);
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 20px;
+        }
+        header {
+            background-color: rgb(2, 2, 2);
+            padding: 20px;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            background-color: rgb(250, 244, 244);
+            padding: 20px;
+            color: rgb(58, 34, 213);
+        }
+        main {
+            margin: 50px;
+            background-color: rgb(227, 234, 236);
+        }
+        footer{
+            background-color: rgb(8, 8, 8);
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        article{
+            background-color: rgb(255, 255, 255);
+            padding: 20px;
+            margin: 50px;
+        }
+        section{
+            background-color: rgb(255, 255, 255);
+            padding: 20px;
+            margin: 50px;
+            text-align: justify;
+        }
+        ul{
+            list-style-type: none;
+            padding: 0;
+        }
+        li{
+            padding: 5px;
+        }
+        h2  {
+            text-align: center;
+        }
+        .tarjeta{
+            background-color: rgb(242, 200, 200);
+            padding: 20px;
+            margin: 20px;
+            
+            text-align: center;
+            box-shadow: 0 0 10px rgb(0, 0, 0);
+            transition:  transform 0.3s ease, box-shadow 0.3s ease;;
+            cursor: pointer;
+            width: 200px;
+            height: 350px;
+            display: inline-block;
+            border-radius: 10%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Encabezado Principal Univalle</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Cursos</a></li>
+            <li><a href="#">Profesores</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Cursos</h2>
+        <p>Cursos de la Universidad Valle</p>
+        <ul>
+            <li><a href="#ingenieria_civil">Curso de Ingeniería Civil</a></li>
+            <li><a href="#ingenieria_electronica">Curso de Ingeniería electronica</a></li>
+            <li><a href="#ingenieria_mecanica">Curso de Ingeniería Mecanica</a></li>
+            <li><a href="#ciencia_datos">Curso de Ciencia Datos</a></li>
+            <li><a href="#otros_cursos">Otros Cursos</a></li>
+        </ul>
+        <section id="ingenieria_civil" style="color: blue;">
+            <h3>Curso de Ingeniería Civil</h3>
+            <p>Descripción del Curso</p>    
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis molestiae deserunt reiciendis aperiam ipsam hic eius odio suscipit dolorem a distinctio doloribus vero, repudiandae aliquam enim eaque repellat adipisci minima.</p>
+            <a href="http://www.google.com" target="_blank">Google</a>
+        </section>
+        <section id="ingenieria_electronica" style="color: rgb(255, 0, 179);">
+            <h3>Curso de Ingeniería Electrónica</h3>
+            <p>Descripción del Curso</p>    
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis molestiae deserunt reiciendis aperiam ipsam hic eius odio suscipit dolorem a distinctio doloribus vero, repudiandae aliquam enim eaque repellat adipisci minima.</p>
+            <a href="http://www.univalle.edu" target="_blank">Google</a>
+        </section>
+        <section id="ingenieria_mecanica" style="color: rgb(255, 0, 179);">
+            <h3>Curso de Ingeniería Mecanica</h3>
+            <p>Descripción del Curso</p>    
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis molestiae deserunt reiciendis aperiam ipsam hic eius odio suscipit dolorem a distinctio doloribus vero, repudiandae aliquam enim eaque repellat adipisci minima.</p>
+            <a href="http://www.univalle.edu" target="_blank">Mecanica</a>
+        </section>
+        <section id="ciencia_datos" style="color: rgb(47, 222, 79);">
+            <h3>Curso de Ciencia de Datos</h3>
+            <p>Descripción del Curso</p>    
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis molestiae deserunt reiciendis aperiam ipsam hic eius odio suscipit dolorem a distinctio doloribus vero, repudiandae aliquam enim eaque repellat adipisci minima.</p>
+            <a href="http://www.univalle.edu" target="_blank">Datos</a>
+        </section>
+        <section id="otros_cursos" style="color: rgb(193, 205, 18);">
+            <h3>Otros Cursos</h3>
+            <p>Descripción del Curso</p>    
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis molestiae deserunt reiciendis aperiam ipsam hic eius odio suscipit dolorem a distinctio doloribus vero, repudiandae aliquam enim eaque repellat adipisci minima.</p>
+            <a href="http://www.univalle.edu" target="_blank">Otros</a>
+        </section>
+        <article>
+            <h2>Articulo Principal</h2>
+            <p>Este es el articulo principal</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis molestiae deserunt reiciendis aperiam ipsam hic eius odio suscipit dolorem a distinctio doloribus vero, repudiandae aliquam enim eaque repellat adipisci minima.</p>
+            <a href="http://www.univalle.edu" target="_blank">Otros</a>
+        </article>
+        <section>
+            <h1 class="titulo" id="titulo">lenguajes de Programación</h1>
+            <div class="tarjeta" style="background-color: blanchedalmond;">
+                <h2>Python</h2>
+                <p>Este es el lenguaje de programación</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis molestiae deserunt reiciendis aperiam ipsam hic eius odio suscipit dolorem a distinctio doloribus vero, repudiandae aliquam enim eaque repellat adipisci minima.</p>
+                <a href="http://www.univalle.edu" target="_blank">Otros</a>
+                <span>Luis Gonzales</span>
+            </div>
+            <div class="tarjeta" style="background-color: cadetblue;">
+                <h2>Java</h2>
+                <p>Este es el lenguaje de programación Java</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis molestiae deserunt reiciendis aperiam ipsam hic eius odio suscipit dolorem a distinctio doloribus vero, repudiandae aliquam enim eaque repellat adipisci minima.</p>
+                <a href="http://www.univalle.edu" target="_blank">Otros</a>
+                <span>Gabriel Gonzales</span>
+            </div>
+            <div class="tarjeta" style="background-color: lightpink;">
+                <h2>Java</h2>
+                <p>Este es el lenguaje de programación PHP</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis molestiae deserunt reiciendis aperiam ipsam hic eius odio suscipit dolorem a distinctio doloribus vero, repudiandae aliquam enim eaque repellat adipisci minima.</p>
+                <a href="http://www.univalle.edu" target="_blank">Otros</a>
+                <span>Santiago</span>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Universidad Valle</p>
+    </footer>
+</body>
+</html>
