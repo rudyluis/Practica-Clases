@@ -7,6 +7,10 @@ app = Flask(__name__)
 def index():
     return 'Hola mundo'
 
+@app.route("/pagina")
+def pagina():
+    return render_template('pagina.html')    
+
 @app.route("/bienvenida")
 def bienvenida():
     return render_template('bienvenida.html')
