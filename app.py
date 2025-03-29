@@ -61,5 +61,11 @@ def usuario_logueado():
     if "user" in session:
         return f"Usuario logueado: {session['user']}"
 
+@app.route("/portafolio")
+def portafolio():
+    return render_template('pagina.html')
+
+
+
 if __name__ == "__main__":
     app.run(debug=True)
