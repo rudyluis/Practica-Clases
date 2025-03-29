@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ejemplos Grip</title>
+
+    <!-- Bootstrap -->
+     <!-- Custom styles for this template -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="css/grid.css" rel="stylesheet">
+  </head>
+  <body>
+    
+    <div class="container">
+      <h1>Ejemplos Grip</h1>
+      <h2>1 columna de un tamaño de 12</h2>
+      <div class="row">
+        <div class="col-12">1</div>
+        <div class="col-lg-12">2</div>
+        <div class="col-xs-12">3</div>
+        <div class="col-md-12">4</div>
+        <div class="col-lg-12">5</div>
+      </div> 
+      <h2>2 columnas de un tamaño de 6</h2>
+      <div class="row">
+        <div class="col-lg-6">1</div>
+        <div class="col-lg-6">2</div>
+        <div class="col-md-6">3</div>
+        <div class="col-md-6">4</div>
+      </div>
+      <h2>3 columnas de un tamaño de 4</h2>
+
+      <div class="row">
+        <div class="col-lg-4">1</div>
+        <div class="col-lg-4">2</div>
+        <div class="col-lg-4">3</div>
+        <div class="col-lg-4">4</div>
+      </div>
+      
+      <h2>4 columnas de un tamaño de 3</h2>
+
+      <div class="row">
+        <div class="col-md-3">1</div>
+        <div class="col-md-3">2</div>
+        <div class="col-md-3">3</div>
+        <div class="col-md-3">4</div>
+      </div>
+      
+      <h2>Multidispositivo normal</h2>
+
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">1 
+          Resize your viewport or check it out on your phone for an example.</div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">2</div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">3</div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">4</div>
+      </div>
+
+      <h2>Multidispositivo con clearfix</h2>
+
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">1 
+          Resize your viewport or check it out on your phone for an example.</div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">2</div>
+        <div class="clearfix visible-sm-block"></div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">3</div>
+        <div class="clearfix visible-md-block"></div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">4</div>
+      </div>
+
+      <h2>Huecos con offset</h2>
+      <div class="row">
+        <div class="col-md-4">Columna 1</div>
+        <div class="col-md-4">Columna 2</div>
+        <div class="col-md-4 offset-md-2">Columna 3 (Desplazada)</div>
+      </div>
+      <!--
+
+La clase offset en Bootstrap se utiliza para mover una columna hacia la derecha en relación con las otras columnas vecinas. Esto puede ser útil cuando deseas crear un diseño asimétrico donde algunas columnas están desplazadas horizontalmente en relación con otras.
+
+Por ejemplo, si tienes una fila con tres columnas y deseas que la tercera columna esté desplazada hacia la derecha, puedes usar la clase offset junto con las clases de columnas para lograrlo.
+
+
+En este caso, la tercera columna está configurada para ocupar 4 columnas en dispositivos medianos (col-md-4), pero también tiene una compensación de 2 columnas (offset-md-2). Esto significa que comenzará dos columnas más a la derecha de donde normalmente comenzaría, creando así un espacio adicional a la izquierda de la columna.
+
+      -->
+      <div class="row">
+        <div class="col-md-4">.col-md-4</div>
+        <div class="col-md-4 col-md-offset-4">.col-md-4 .col-md-offset-4</div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 col-md-offset-3">.col-md-3 .col-md-offset-3</div>
+        <div class="col-md-3 col-md-offset-3">.col-md-3 .col-md-offset-3</div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">.col-md-6 .col-md-offset-3</div>
+      </div>
+
+      <h2>push & pull</h2>
+
+      <div class="row">
+        <div class="col-md-9 col-md-push-3">.col-md-9 .col-md-push-3</div>
+        <div class="col-md-3 col-md-pull-9">.col-md-3 .col-md-pull-9</div>
+      </div>
+
+    </div>
+    
+  </body>
+</html>
